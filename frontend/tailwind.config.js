@@ -33,11 +33,8 @@ export default {
       },
     },
   },
-<<<<<<< HEAD
-  plugins: [tailwindcssAnimate], 
-=======
+ 
   plugins: [tailwindcssAnimate],
->>>>>>> 650fd95 (Fixed Tailwind config export issue)
 };
 
 // /** @type {import('tailwindcss').Config} */
