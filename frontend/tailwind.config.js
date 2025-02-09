@@ -33,7 +33,7 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate], 
 };
 
 // /** @type {import('tailwindcss').Config} */
