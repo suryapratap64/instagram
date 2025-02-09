@@ -30,7 +30,7 @@ const LeftSidebar = () => {
 
   const logoutHandler = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/api/v1/user/logout", {
+      const res = await axios.get("https://instagram-3-r3kd.onrender.com/api/v1/user/logout", {
         withCredentials: true,
       });
       if (res.data.success) {

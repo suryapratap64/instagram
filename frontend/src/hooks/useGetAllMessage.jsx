@@ -12,7 +12,7 @@ const useGetAllMessage = () => {
             if (!selectedUser) return; // Prevent fetching if no selected user
             try {
                 const res = await axios.get(
-                    `http://localhost:8000/api/v1/message/all/${selectedUser?._id}`,
+                    `https://instagram-3-r3kd.onrender.com/api/v1/message/all/${selectedUser?._id}`,
                     { withCredentials: true }
                 );
 

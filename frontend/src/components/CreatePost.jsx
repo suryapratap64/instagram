@@ -39,7 +39,7 @@ const {user}=useSelector(store=>store.auth)
       setLoading(true);
      
       const res = await axios.post(
-        'http://localhost:8000/api/v1/post/addpost', 
+        'https://instagram-3-r3kd.onrender.com/api/v1/post/addpost', 
         formData, 
         {
           headers: {
