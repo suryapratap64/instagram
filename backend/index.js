@@ -21,12 +21,12 @@ const PORT=process.env.PORT || 3000;
 const __dirname=path.resolve();
 // console.log(__dirname);
 
-app.get("/",(req,res)=>{
-    return res.status(200).json({
-        message:"i,m coming from backend",
-        success:true
-    })
-})
+// app.get("/",(req,res)=>{
+//     return res.status(200).json({
+//         message:"i,m coming from backend",
+//         success:true
+//     })
+// })
 //middlewares
 app.use(express.json())
 app.use(cookieParser())
